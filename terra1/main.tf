@@ -102,6 +102,6 @@ resource "aws_instance" "myEc2Public" {
               EOF
 
   tags = {
-    Name = "publicEc2"
+    Name = "ec2-publicip"
   }
 }
